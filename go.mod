@@ -45,7 +45,6 @@ require (
 )
 
 replace (
-	github.com/ipfs/testground/sdk/iptb => ./sdk/iptb
 	github.com/ipfs/testground/sdk/runtime => ./sdk/runtime
 	github.com/ipfs/testground/sdk/sync => ./sdk/sync
 	github.com/miekg/dns => github.com/miekg/dns v1.0.14

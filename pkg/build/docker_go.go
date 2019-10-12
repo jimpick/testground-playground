@@ -135,7 +135,6 @@ func (b *DockerGoBuilder) Build(opts *Input) (*Output, error) {
 	// TODO make the module mapping dynamic.
 	replaces = append(replaces,
 		fmt.Sprintf("-replace=github.com/ipfs/testground/sdk/sync=../sdk/sync"),
-		fmt.Sprintf("-replace=github.com/ipfs/testground/sdk/iptb=../sdk/iptb"),
 		fmt.Sprintf("-replace=github.com/ipfs/testground/sdk/runtime=../sdk/runtime"))
 
 	// Write replace directives.
