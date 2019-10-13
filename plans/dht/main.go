@@ -7,8 +7,6 @@ import (
 
 var testCases = []func(*runtime.RunEnv){
 	test.LookupPeers,
-	test.LookupProviders,
-	test.StoreGetValue,
 }
 
 func main() {
