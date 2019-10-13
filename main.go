@@ -34,6 +34,7 @@ func main() {
 		return nil
 	}
 
+	fmt.Printf("Jim2 %v\n", os.Args)
 	err := app.Run(os.Args)
 	if err != nil {
 		fmt.Println(err)
