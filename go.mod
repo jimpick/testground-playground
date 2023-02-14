@@ -14,7 +14,7 @@ require (
 	github.com/docker/docker v1.4.2-0.20190910181529-415f8ecb65e8
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
-	github.com/gogo/protobuf v1.3.0 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/mux v1.7.3 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
@@ -36,9 +36,7 @@ require (
 	github.com/urfave/cli v1.22.0
 	go.opencensus.io v0.22.1 // indirect
 	go.uber.org/zap v1.10.0
-	golang.org/x/sync v0.0.0-20190423024810-112230192c58
-	golang.org/x/sys v0.0.0-20190922100055-0a153f010e69 // indirect
-	golang.org/x/tools v0.0.0-20190911225940-c7d52e45e2f2 // indirect
+	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
 	google.golang.org/grpc v1.23.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gotest.tools v2.2.0+incompatible // indirect
